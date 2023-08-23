@@ -12,23 +12,25 @@ const CONFIG = {
   },
   projects: [
     {
-      name: `bin.log`,
+      name: `binlog`,
       href: "https://github.com/Binveloper/bin.log",
     },
   ],
   // blog setting (required)
   blog: {
-    title: "bin.log",
-    description: "welcome to bin.log!",
+    title: "binlog",
+    description: "welcome to binlog!",
     theme: "dark"
   },
 
   // CONFIG configration (required)
-  link: "https://morethan-log.vercel.app",
-  since: 2022, // If leave this empty, current year will be used.
+  link: "https://bin-log.vercel.app",
+  since: 2023, // If leave this empty, current year will be used.
   lang: "en-US", // ['en-US', 'zh-CN', 'zh-HK', 'zh-TW', 'ja-JP', 'es-ES', 'ko-KR']
   ogImageGenerateURL: "https://og-image-korean.vercel.app", // The link to generate OG image, don't end with a slash
-
+  seo: {
+    keywords: ["Blog", "WebSite", "Notion"],
+  },
   // notion configuration (required)
   notionConfig: {
     pageId: process.env.NOTION_PAGE_ID,
