@@ -15,7 +15,7 @@ export function getAllSelectItemsFromPosts(
       itemObj[item] = 1
     }
   })
-  return itemObj
+ 
 // itemObj를 item name으로 정렬
   const sortedItemObj = Object.entries(itemObj)
     .sort((a, b) => a[0].localeCompare(b[0]))
