@@ -6,6 +6,7 @@ const CONFIG = {
     role: "Web developer",
     email: "seeroocee@gmail.com",
     github: "Binveloper",
+    instagram : ""
   },
   projects: [
     {
