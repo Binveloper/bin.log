@@ -4,7 +4,7 @@ const CONFIG = {
     name: "LeeSuBin",
     image: "/notion-subin.svg", // If you want to create your own notion avatar, check out https://notion-avatar.vercel.app
     role: "Web developer",
-    bio: "",
+    bio: "이것저것 끄적여보는 bin.log",
     email: "seeroocee@gmail.com",
     github: "Binveloper",
     instagram : "",
@@ -12,14 +12,14 @@ const CONFIG = {
   },
   projects: [
     {
-      name: `binlog`,
+      name: `bin.log`,
       href: "https://github.com/Binveloper/bin.log",
     },
   ],
   // blog setting (required)
   blog: {
-    title: "binlog",
-    description: "welcome to binlog!",
+    title: "bin.log",
+    description: "welcome to bin.log!",
     theme: "dark"
   },
 
